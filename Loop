@@ -1,0 +1,9 @@
+void main() {
+  var number = ['+88', '01768131685', '01768171985', '01768111286', '01768131685'];
+
+  for (int i = 0 ; i<number.length;i++) {
+    if (number[i] != '+88') {
+      print('+88${number[i]}');
+    }
+  }
+}
