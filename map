@@ -1,0 +1,11 @@
+void main() {
+  Map<String, dynamic> employee = {
+    "Id": "E1",
+    "Name": "Mohammad Ali",
+    "Age": 23,
+    "Salary": 75000,
+    "Gender": "Male"
+  };
+
+  print(employee['Salary']);
+}
